@@ -1,0 +1,36 @@
+<link
+  href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+  rel="stylesheet"
+/>
+
+<div>
+  <h1 class="head1">Rent A Car</h1>
+
+  <div class="parent">
+    <form [formGroup]="loginForm">
+      <h1>Login</h1>
+      <div class="input-box">
+        <input type="text" formControlName="username" placeholder="Username" required />
+        <i class="bx bx-user"></i>
+      </div>
+      <div class="input-box">
+        <input type="password" formControlName="password" placeholder="Password" required />
+        <i class="bx bxs-lock"></i>
+      </div>
+
+      <div class="remember-forgot">
+        <label>
+          <input type="checkbox" />
+          Remember me
+        </label>
+        <a href="#">forgot password?</a>
+      </div>
+
+      <button (click)="onLogin()" class="btn">Login</button>
+
+      <div class="register-link">
+        <p>Don't have an account? <a routerLink="/register">Register</a></p>
+      </div>
+    </form>
+  </div>
+</div>

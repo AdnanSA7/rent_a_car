@@ -1,0 +1,15 @@
+<div class="navbar bg-neutral text-neutral-content">
+  <div class="flex-1">
+    <button routerLink="customer-dashboard" class="btn btn-ghost text-xl">Customer-Dashboard</button>
+  </div>
+
+  <div class="flex-none">
+    <ul class="menu menu-horizontal px-1">
+      <!-- <li><a class="btn btn-ghost text-base">Search</a></li> -->
+      <li><a routerLink="booking_status" class="btn btn-ghost text-base">Booking Status</a></li>
+      <li><a class="btn btn-ghost text-base" (click)="logOut()">Log Out</a></li>
+    </ul>
+  </div>
+</div>
+
+<router-outlet></router-outlet>

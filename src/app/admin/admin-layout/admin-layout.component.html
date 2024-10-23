@@ -1,0 +1,14 @@
+<div class="navbar bg-neutral text-neutral-content">
+    <div class="flex-1">
+      <button routerLink="admin-dashboard" routerLinkActive="routerLinkActive" class="btn btn-ghost text-xl">Admin-Dashboard</button>
+    </div>
+
+    <div class="flex-none">
+      <ul class="menu menu-horizontal px-1">
+        <li><button routerLink="booking" routerLinkActive="routerLinkActive" class="btn btn-ghost text-base">Status</button></li>
+        <li><button routerLink="addcar" class="btn btn-ghost text-base">Add Car</button></li>
+        <li><a (click)="logOut()" class="btn btn-ghost text-base">Log Out</a></li>
+      </ul>
+    </div>
+  </div>
+  <router-outlet></router-outlet>

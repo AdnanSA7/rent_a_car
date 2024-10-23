@@ -1,0 +1,253 @@
+{
+  "carData": [
+    {
+      "id": 60,
+      "brand": "Volkswagen",
+      "model": "Virtus",
+      "year": 2025,
+      "color": "Black",
+      "dailyRate": 4000,
+      "carImage": "https://feeds.abplive.com/onecms/images/uploaded-images/2023/06/09/10c375303452d60e1db6072fd6edc8b9168628501319019_original.jpg",
+      "regNo": "KL-02-RB-8465"
+    },
+    {
+      "id": 69,
+      "brand": "TESLA",
+      "model": "MODEL Y Q",
+      "year": 2023,
+      "color": "WHITE",
+      "dailyRate": 10000,
+      "carImage": "https://stimg.cardekho.com/images/carexteriorimages/930x620/Tesla/Cybertruck/7236/1574859399554/front-left-side-47.jpg",
+      "regNo": "TN 09 GJ 0909"
+    },
+    {
+      "id": 79,
+      "brand": "Hyundai",
+      "model": "Venue",
+      "year": 2022,
+      "color": "Red",
+      "dailyRate": 3500,
+      "carImage": "https://spn-sta.spinny.com/blog/20221004191046/Hyundai-Venue-2022.jpg?compress=true&quality=80&w=1200&dpr=2.6",
+      "regNo": "7"
+    },
+    {
+      "id": 86,
+      "brand": "Hyundai",
+      "model": "Creta",
+      "year": 2023,
+      "color": "White",
+      "dailyRate": 15000,
+      "carImage": "https://imgd.aeplcdn.com/600x337/n/koc98cb_1711083.jpg?q=80",
+      "regNo": "1234567890"
+    },
+    {
+      "id": 87,
+      "brand": "Hyundai",
+      "model": "Creta",
+      "year": 2023,
+      "color": "Red",
+      "dailyRate": 17000,
+      "carImage": "https://imgd.aeplcdn.com/600x337/n/qkve8cb_1711079.jpg?q=80",
+      "regNo": "3216549870"
+    },
+    {
+      "id": 88,
+      "brand": "Maruti",
+      "model": "Swift",
+      "year": 2021,
+      "color": "Red",
+      "dailyRate": 8500,
+      "carImage": "https://stimg.cardekho.com/images/carexteriorimages/630x420/Maruti/Swift/10406/1697698080681/front-left-side-47.jpg?tr=w-664",
+      "regNo": "654321987"
+    },
+    {
+      "id": 92,
+      "brand": "Jaguar",
+      "model": "jaguar j6",
+      "year": 1966,
+      "color": "Red",
+      "dailyRate": 60000,
+      "carImage": "https://images.pexels.com/photos/15264312/pexels-photo-15264312/free-photo-of-a-vintage-jaguar-on-a-city-street.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "regNo": "8765"
+    },
+    {
+      "id": 101,
+      "brand": "mahindra",
+      "model": "jj",
+      "year": 2002,
+      "color": "black",
+      "dailyRate": 9000,
+      "carImage": "https://images.pexels.com/photos/12905857/pexels-photo-12905857.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+      "regNo": "23456"
+    },
+    {
+      "id": 1110,
+      "brand": "BMW",
+      "model": "BS -6",
+      "year": 2024,
+      "color": "Blue",
+      "dailyRate": 3000,
+      "carImage": "https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "regNo": "Kol - 06 5689"
+    },
+    {
+      "id": 1111,
+      "brand": "Suzuki",
+      "model": "Cultuz",
+      "year": 2014,
+      "color": "Gray",
+      "dailyRate": 1000,
+      "carImage": "https://stimg.cardekho.com/images/carexteriorimages/630x420/Mahindra/Bolero/10754/1697696929365/front-left-side-47.jpg?tr=w-664",
+      "regNo": "10001"
+    },
+    {
+      "id": 1112,
+      "brand": "BMW",
+      "model": "Extrem",
+      "year": 2024,
+      "color": "Blue",
+      "dailyRate": 500,
+      "carImage": "https://images.pexels.com/photos/170813/pexels-photo-170813.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "regNo": "MUM - 01 2135"
+    },
+    {
+      "id": 1113,
+      "brand": "Audi",
+      "model": "Series",
+      "year": 2024,
+      "color": "Yellow",
+      "dailyRate": 6000,
+      "carImage": "https://images.pexels.com/photos/2365572/pexels-photo-2365572.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "regNo": "Kol - 06 8795"
+    },
+    {
+      "id": 1114,
+      "brand": "Mahindra   ",
+      "model": "Bolero",
+      "year": 2023,
+      "color": "White",
+      "dailyRate": 98000,
+      "carImage": "https://stimg.cardekho.com/images/carexteriorimages/630x420/Mahindra/Bolero/10754/1697696929365/front-left-side-47.jpg?tr=w-664",
+      "regNo": "Kol - 02 8967"
+    },
+    {
+      "id": 1115,
+      "brand": "Tata",
+      "model": "Tata Nexon EV",
+      "year": 2024,
+      "color": "Gray",
+      "dailyRate": 2000,
+      "carImage": "https://stimg.cardekho.com/images/carexteriorimages/630x420/Tata/Nexon-EV-2023/11024/1694146347051/front-left-side-47.jpg",
+      "regNo": "Kol - 03 7856"
+    },
+    {
+      "id": 1116,
+      "brand": "MG ",
+      "model": "ZS EV",
+      "year": 2023,
+      "color": "Red",
+      "dailyRate": 1800,
+      "carImage": "https://stimg.cardekho.com/images/carexteriorimages/630x420/MG/ZS-EV/11503/1719393099348/front-left-side-47.jpg",
+      "regNo": "Kol - 06 5265"
+    },
+    {
+      "id": 1123,
+      "brand": "Innova",
+      "model": "4233",
+      "year": 2221,
+      "color": "black",
+      "dailyRate": 5000,
+      "carImage": "https://images.pexels.com/photos/12905857/pexels-photo-12905857.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+      "regNo": "43545"
+    },
+    {
+      "id": 1124,
+      "brand": "ewre",
+      "model": "ewrwe",
+      "year": 2221,
+      "color": "black",
+      "dailyRate": 5000,
+      "carImage": "https://images.pexels.com/photos/12905857/pexels-photo-12905857.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+      "regNo": "Totayato"
+    },
+    {
+      "id": 1125,
+      "brand": "lenova",
+      "model": "wrwe",
+      "year": 2025,
+      "color": "yellow",
+      "dailyRate": 3000,
+      "carImage": "https://images.pexels.com/photos/12905857/pexels-photo-12905857.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+      "regNo": "432sc"
+    },
+    {
+      "brand": "BMW",
+      "model": "BMW",
+      "year": 2022,
+      "color": "Red",
+      "dailyRate": 500,
+      "carImage": "https://prod.cosy.bmw.cloud/bmwweb/cosySec?COSY-EU-100-2545xM4RIyFnbm9Mb3AgyyIJrjG0suyJRBODlsrjGpuaprQbhSIqppglBgKRK5l384MlficYiGHqoQxYLW7%25f3tiJ0PCJirQbLDWcQW7%251uS3EqoQh47wMvcYi9kQRAMb3islBglUbDwcRScHz0fMbnMd0BayJGy5BadrQ%25r99oUW8zWuuf4qogqaGsdl3ilUUHecRScH8NuMbnMd0B6yJGy53L5rQ%25r9YpJW8zWubtJqogqaJh%25l3ilUQT1cRScHHeiMbnMdd8syJGy536nrQ%25r9sRmW8zWuKSoqogqaJh5l3ilU%258jcRScH4%25oMbnMdJbtyJGy5QARrQ%25r98eFW8zWuowGqogqa3EFl3ilUR4gcRScHbzBMbnMd09RyJGy5BoorQ%25r9YbJW8zWunD4qogqaG4zl3ilU%25WFcRScHzmBMbnMdoi0yJGy55oarQ%25r9SEUW8zWunm7qogqaDC8l3ilUjvUcRScH40iMbnMdg7oyJGy5i0BrQ%25r9SDRW8JYHltW7%25XlWrQb9%25cQSW7%25IER8MI8YHQA",
+      "id": 1127
+    }
+  ],
+  "admin": [
+    {
+      "username": "guru",
+      "password": "g1234",
+      "role": "Admin",
+      "firstname": "Raduan",
+      "lastname": "DB",
+      "email": "raduan@gmail.com",
+      "district": "Dhaka",
+      "address": "Wari, Dhaka",
+      "phone": "01821656542",
+      "postalCode": "1100",
+      "id": 1
+    }
+  ],
+  "customer": [
+    {
+      "username": "tuser",
+      "password": "t1234",
+      "role": "Customer",
+      "firstname": "Tuser",
+      "lastname": "Mahmud",
+      "email": "tuser@gmail.com",
+      "district": "Dhaka",
+      "address": "Satrowza, Dhaka",
+      "phone": "01684891985",
+      "postalCode": "1100",
+      "id": 1
+    }
+  ],
+  "booking": [
+    {
+      "userId": 1,
+      "carId": 60,
+      "brand": "volkswagen",
+      "accepted": true,
+      "id": 1
+    },
+    {
+      "userId": 2,
+      "carId": 1110,
+      "brand": "BMW",
+      "accepted": true,
+      "id": 2
+    },
+    {
+      "userId": 1,
+      "carId": 79,
+      "brand": "Hyundai",
+      "accepted": false,
+      "id": 3
+    },
+    {
+      "userId": 1,
+      "carId": 1127,
+      "brand": "BMW",
+      "accepted": true,
+      "id": 4
+    }
+  ]
+}

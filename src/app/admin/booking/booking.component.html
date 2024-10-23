@@ -1,0 +1,40 @@
+<div class="overflow-x-auto mx-12">
+    <table class="table">
+      <!-- head -->
+      <thead>
+        <tr>
+          <th>UserID</th>
+          <th>CarID</th>
+          <th>Brand</th>
+          <th>Status</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- row  -->
+          @for (item of bookingDetails; track $index){
+            <tr>
+              <td>{{item.userId}}</td>
+              <td>{{item.carId}}</td>
+              <td>{{item.brand}}</td>
+              <td>
+                @if (item.accepted == null){
+                  Pending
+                } @else if (item.accepted == true){
+                  Accepted
+                }
+                @else {
+                  Rejected
+                }
+              </td>
+              @if (item.accepted == null){
+                <th>
+                  <button (click)="rejectBooking(item)" class="btn btn-ghost btn-sm">&#x274C;</button>
+                  <button (click)="acceptBooking(item)" class="btn btn-ghost btn-sm">&#9989;</button>
+                </th>
+              }
+            </tr>
+          }
+      </tbody>
+    </table>
+  </div>

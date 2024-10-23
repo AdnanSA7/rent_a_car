@@ -1,0 +1,86 @@
+<div class="w-4/5 p-10 m-auto">
+  <form [formGroup]="carForm">
+    <div class="space-y-12">
+      <div class="border-b border-gray-900/10 pb-12">
+        <h2 class="text-base font-semibold leading-7 text-gray-900">Car Information</h2>
+
+        <div class="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
+          <div class="sm:col-span-3">
+            <label for="carBrandName" class="block text-sm font-medium leading-6 text-gray-900">Car Brand Name</label>
+            <div class="mt-2">
+              <select id="carBrandName" formControlName="brand" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:max-w-xs sm:text-sm sm:leading-6">
+                <option>BMW</option>
+                <option>Audi</option>
+                <option>Volkswagen</option>
+                <option>Toyota</option>
+                <option>Hyundai</option>
+                <option>Tata</option>
+                <option>Jaguar</option>
+                <option>Nissan</option>
+                <option>Suzuki</option>
+                <option>Mercedes Benz</option>
+                <option>Mitsubishi</option>
+                <option>Ford</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+          <div class="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
+            <div class="sm:col-span-4">
+              <label for="carModel" class="block text-sm font-medium leading-6 text-gray-900">Car Model</label>
+              <div class="mt-2">
+                <div class="flex rounded-md shadow-sm ring-1 ring-inset ring-gray-300 focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-600 sm:max-w-md">
+                  <input type="text" formControlName="model" id="carModel" class="block flex-1 border-0 bg-transparent py-1.5 pl-1 text-gray-900 placeholder:text-gray-400 focus:ring-0 sm:text-sm sm:leading-6">
+                </div>
+              </div>
+            </div>
+          </div>
+        <div class="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
+          <div class="sm:col-span-4">
+            <label for="year" class="block text-sm font-medium leading-6 text-gray-900">Year</label>
+            <div class="mt-2">
+              <div class="flex rounded-md shadow-sm ring-1 ring-inset ring-gray-300 focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-600 sm:max-w-md">
+                <input type="number" formControlName="year" id="year" class="block flex-1 border-0 bg-transparent py-1.5 pl-1 text-gray-900 placeholder:text-gray-400 focus:ring-0 sm:text-sm sm:leading-6">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
+          <div class="sm:col-span-4">
+            <label for="color" class="block text-sm font-medium leading-6 text-gray-900">Color</label>
+            <div class="mt-2">
+              <div class="flex rounded-md shadow-sm ring-1 ring-inset ring-gray-300 focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-600 sm:max-w-md">
+                <input type="text" formControlName="color" id="color" class="block flex-1 border-0 bg-transparent py-1.5 pl-1 text-gray-900 placeholder:text-gray-400 focus:ring-0 sm:text-sm sm:leading-6">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
+          <div class="sm:col-span-4">
+            <label for="dailyRate" class="block text-sm font-medium leading-6 text-gray-900">Daily Rate</label>
+            <div class="mt-2">
+              <div class="flex rounded-md shadow-sm ring-1 ring-inset ring-gray-300 focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-600 sm:max-w-md">
+                <input type="number" formControlName="dailyRate" id="dailyRate" class="block flex-1 border-0 bg-transparent py-1.5 pl-1 text-gray-900 placeholder:text-gray-400 focus:ring-0 sm:text-sm sm:leading-6">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
+          <div class="sm:col-span-4">
+            <label for="carImage" class="block text-sm font-medium leading-6 text-gray-900">Car Image Url</label>
+            <div class="mt-2">
+              <div class="flex rounded-md shadow-sm ring-1 ring-inset ring-gray-300 focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-600 sm:max-w-md">
+                <input type="text" formControlName="carImage" id="carImage" class="block flex-1 border-0 bg-transparent py-1.5 pl-1 text-gray-900 placeholder:text-gray-400 focus:ring-0 sm:text-sm sm:leading-6">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mt-6 flex items-center justify-end gap-x-6">
+      <button (click)="this.carForm.reset()" class="btn btn-outline font-semibold leading-6">Reset</button>
+      <button (click)="addCar(this.carForm.value)" class="btn btn-outline btn-primary font-semibold leading-6">Add</button>
+    </div>
+  </form>
+</div>

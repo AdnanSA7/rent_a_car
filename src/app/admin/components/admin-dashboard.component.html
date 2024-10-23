@@ -1,0 +1,33 @@
+
+
+<div class="container mx-auto mt-5">
+  <div class="bg-white grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+    <!-- <div class="bg-white flex flex-wrap gap-4"> -->
+    @for (item of carList; track $index){
+      <div class="card card-compact bg-base-100 drop-shadow-xl w-72 shadow-xl">
+        @if (item.carImage) {
+        <figure>
+          <img
+            [src]="item.carImage" height="100%" alt="Cars"/>
+        </figure>
+      }
+        <div class="card-body">
+          <h2 class="card-title">{{item.brand}}</h2>
+          <p>{{item.model}}</p>
+          <p>{{item.color}}</p>
+          <p>Daily Rate  ${{item.dailyRate}}</p>
+          <div class="card-actions justify-end">
+            <a routerLink="update-car/{{item.id}}" class="btn btn-primary" >Edit</a>
+            <button class="btn btn-primary" (click)="onDelete(item.id)">Delete</button>
+          </div>
+        </div>
+      </div>
+    }
+</div>
+</div>
+
+<router-outlet></router-outlet>
+
+
+
+

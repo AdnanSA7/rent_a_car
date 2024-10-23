@@ -1,0 +1,44 @@
+
+
+<div class="container mx-auto mt-5">
+  <div class="bg-white grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+    <!-- <div class="bg-white flex flex-wrap gap-4"> -->
+    @for (item of carList; track $index){
+      <div class="card card-compact bg-base-100 drop-shadow-xl w-72 shadow-xl">
+        @if (item.carImage) {
+        <figure>
+          <img
+            [src]="item.carImage" height="100%" alt="Cars"/>
+        </figure>
+      }
+        <div class="card-body">
+          <h2 class="card-title">{{item.brand}}</h2>
+          <p>{{item.model}}</p>
+          <p>{{item.color}}</p>
+          <p>$ {{item.dailyRate}}</p>
+          <div class="card-actions justify-end">
+            <button (click)="onBookCar(item.id,item.brand)" class="btn btn-primary">Book Car</button>
+          </div>
+        </div>
+      </div>
+    }
+</div>
+</div>
+
+
+<!-- Open the modal using ID.showModal() method -->
+<dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle" #my_modal_5>
+  <div class="modal-box">
+    <h3 class="text-lg font-bold">Hello!</h3>
+    <p class="py-4">Are you sure you want to book this car?</p>
+    <div class="modal-action">
+      <form method="dialog">
+        <!-- if there is a button in form, it will close the modal -->
+        <div class="mt-6 flex items-center justify-end gap-x-6">
+          <button class="btn">Close</button>
+          <button (click)="addBooking()" class="btn">OK</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</dialog>
